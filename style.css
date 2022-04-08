@@ -1,0 +1,333 @@
+body {
+    display: flex;
+    background-color: #e8e7e6;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeece9;
+    width: 100vw;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+
+}
+
+#sub-header {
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 100vw;
+    justify-content: center;
+
+}
+
+#image-1-container {
+    display: flex;
+    gap:1rem;
+    padding: .25rem .25rem;
+    width: 100vw;
+    align-items: center;
+    background-color: #f4f2ef;
+    border-bottom: 1px solid gray;
+
+}
+
+#pic1 {
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+}
+
+#image-2-container {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding: .25rem .25rem;
+    border-bottom: 1px solid gray;
+    width: 100vw;
+
+}
+
+
+#pic2 {
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+
+}
+
+#image-3-container {
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    padding: .25rem .25rem;
+}
+
+#pic3 {
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 2rem;
+    }
+    #container {
+        height: 115vh;
+    }
+    #pic1 {
+        width: 47vw;
+        height: 29vh;
+    }
+    #pic2 {
+        width: 47vw;
+        height: 29vh;
+    }
+    #pic3 {
+        width: 47vw;
+        height: 29vh;
+    }
+    
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 2.5rem;
+    }
+    #container {
+        height: 195vh;
+    }
+    #pic1 {
+        width: 65vw;
+        height: 50vh;
+    }
+    #pic2 {
+        width: 65vw;
+        height: 60vh;
+    }
+    #pic3 {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        font-size: 2.5rem;
+    }
+    #container {
+        height: 180vh;
+    }
+    #pic1 {
+        width: 20vw;
+        height: 40vh;
+    }
+    #pic2 {
+        width: 20vw;
+        height: 40vh;
+    }
+    #pic3 {
+        width: 20vw;
+        height: 40vh;
+    }
+    #image-1-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+    }
+    #image-2-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+
+    #image-3-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #page-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #sub-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #footer {
+        width: 58vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2500px) {
+    body {
+        font-size: 2.5rem;
+    }
+
+
+
+    #image-1-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+    }
+    #image-2-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+
+    #image-3-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #container {
+        height: 135vh;
+
+    }
+    #pic1 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #pic2 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #pic3 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #page-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #sub-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #footer {
+        width: 58vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 2560px){
+    body {
+        font-size: 2.5rem;
+    }
+
+
+
+    #image-1-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+    }
+    #image-2-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        gap:30rem;
+
+
+    }
+
+    #image-3-container {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #container {
+        height: 135vh;
+
+    }
+    #pic1 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #pic2 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #pic3 {
+        width: 20vw;
+        height: 35vh;
+    }
+    #page-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #sub-header {
+        width: 60vw;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+
+
+    }
+    #footer {
+        width: 58vw;
+
+    }
+    
+}
+
+
+
